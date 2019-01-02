@@ -84,11 +84,11 @@ CSS stands for Cascading Style Sheet. The "Style Sheet" part means that the docu
 
 `<p>Here's a paragraph</p>` will render as follows:
 
-<p style="color: blue;">Here's a paragraph</p>
+<p style="color:blue">Here's a paragraph</p>
 
 But `<p class="morespecific">Here's a more specific paragraph</p>` will render in this way:
 
-<p style="color: purple;">Here's a more specific paragraph</p>
+<p style="color:purple">Here's a more specific paragraph</p>
 
 You need:
 - A styles.css file
