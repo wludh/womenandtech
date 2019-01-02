@@ -62,7 +62,13 @@ Of course it does! But where do you get the pictures? And where do they go?
 
 ### Image tags
 
+### How's it look?
+
+![gif of a Star Wars robot giving a lighter thumbs-up](https://media.giphy.com/media/3o7abB06u9bNzA8lu8/giphy.gif)
+
 ## How do you make your web page look even more exciting?
+
+Add CSS to modify the presentation of the elements. Remeber, HTML specifies what kind of thing a piece of content is, and CSS controls how that piece of content appears to the user.
 
 ## What is CSS?
 
@@ -71,3 +77,12 @@ You need:
 - A way to tell your web page where to find the styles.css file
 
 ## Try it out
+
+1. Create a file called styles.css.
+2. Edit your index.html file to tell it where to find styles.css.
+3. Create a class in your stylesheet with a unique name.
+4. Define the class so that it changes the color and the size of text.
+5. Assign the class to a `<p>` element in your website.
+
+### How's it look?
+![gif of Jessica Jones looking excited](https://media.giphy.com/media/3o7abBP0nMjrdIvaCY/giphy.gif)
