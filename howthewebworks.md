@@ -1,7 +1,7 @@
 # How the Web Works
 
 ## What is the internet, actually?
-[![Diagram depicting servers, clients and ISP][(http://img.youtube.com/vi/7_LPdttKXPc/0.jpg)](http://www.youtube.com/watch?v=7_LPdttKXPc)
+[![Diagram depicting servers, clients and ISP](http://img.youtube.com/vi/7_LPdttKXPc/0.jpg)](http://www.youtube.com/watch?v=7_LPdttKXPc)
 
 ## What is a web page?
 
