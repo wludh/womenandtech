@@ -1,8 +1,6 @@
 # How the Web Works
 
 ## What is the internet, actually?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 (http://img.youtube.com/vi/7_LPdttKXPc/0.jpg)](http://www.youtube.com/watch?v=7_LPdttKXPc)
 
 ## What is a web page?
