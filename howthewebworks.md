@@ -72,6 +72,24 @@ Add CSS to modify the presentation of the elements. Remeber, HTML specifies what
 
 ## What is CSS?
 
+CSS stands for Cascading Style Sheet. The "Style Sheet" part means that the document tells your website how to style all the different components. The "Cascading" part means that CSS operates according to a hierarchy of specificity. The more specific rule always wins. For example:
+
+`.p {
+	color: blue;
+}`
+
+`.morespecific {
+	color: purple;
+}`
+
+`<p>Here's a paragraph</p>` will render as follows:
+
+<p style="color: blue;">Here's a paragraph</p>
+
+But `<p class="morespecific">Here's a more specific paragraph</p>` will render in this way:
+
+<p style="color: purple;">Here's a more specific paragraph</p>
+
 You need:
 - A styles.css file
 - A way to tell your web page where to find the styles.css file
@@ -85,4 +103,12 @@ You need:
 5. Assign the class to a `<p>` element in your website.
 
 ### How's it look?
-![gif of Jessica Jones looking excited](https://media.giphy.com/media/3o7abBP0nMjrdIvaCY/giphy.gif)
+![gif of Jessica Williams looking excited](https://media.giphy.com/media/3o7abBP0nMjrdIvaCY/giphy.gif)
+
+## Testing out CSS hierarchies
+1. Create a class that adds a strikethrough through all `<h3>` elements.
+2. Create a second class called "right" that aligns anything in the class to the right.
+3. Add three elements to your website:
+- Something with an `<h3>` tag
+- Something with the class "right"
+- Something with both an `<h3>` tag and the class right 
