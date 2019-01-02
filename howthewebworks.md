@@ -3,6 +3,7 @@
 ## What is the internet, actually?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+(http://img.youtube.com/vi/7_LPdttKXPc/0.jpg)](http://www.youtube.com/watch?v=7_LPdttKXPc)
 
 ## What is a web page?
 
@@ -32,7 +33,7 @@ You need:
 
 ### How's it look?
 
-<iframe src="https://giphy.com/embed/MC8hMWWQ8wgtW" width="480" height="319" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/house-michelle-ashley-MC8hMWWQ8wgtW">via GIPHY</a></p>
+![gif of Michelle Tanner looking disappointed](https://media.giphy.com/media/MC8hMWWQ8wgtW/giphy.gif)
 
 ## How do you make your web page look more exciting?
 
