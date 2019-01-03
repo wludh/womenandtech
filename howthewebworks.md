@@ -17,7 +17,7 @@
 ## How do you make a web page?
 
 You need:
-- A text editor
+- A [text editor](https://www.sublimetext.com/)
 - A folder for your web page
 - An index.html file
 - A browser
@@ -26,14 +26,27 @@ You need:
 
 1. Create a folder on your desktop called "website."
 2. Inside the folder, create a file called index.html.
-3. Using a text editor, add some text to your index.html file.
-4. Open your website using a browser.
+3. Using a text editor, add the following text to index.html:
+`<!DOCTYPE html>`
+`<html>`
+`<head>`
+	`<title>Your website title goes here</title>`
+`</head>`
+
+`<body>`
+`</body>`
+`</html>`
+
+4. Add some text in between the `<body>` tags.
+5. Open your website using a browser.
 
 ### How's it look?
 
 ![gif of Michelle Tanner looking disappointed](https://media.giphy.com/media/MC8hMWWQ8wgtW/giphy.gif)
 
 ## How do you make your web page look more exciting?
+
+Well, you add more content, for one thing. You can also tag that content using HTML to tell the browser what kind of thing each piece of text is.
 
 ## Try it out
 
@@ -55,16 +68,29 @@ Of course it does! But where do you get the pictures? And where do they go?
 ### File structures
 
 ![diagram of folders and subfolders](https://zapier.cachefly.net/storage/photos/afcb5e29842a4dde75d47627f506941a.png)
+
 (There are no diagrams of file structures that aren't boring)
 
 - Create a folder for your images
 - Find an image and save it to your images folder
 
 ### Image tags
+You website needs to tell the browser where to find your image, and how to display it. At a bare minimum, you need to include the path to your image in an `<img>` tag:
+
+`<img src="pathtoimage">`
+
+### Try it out
+
+Add an image tag to index.hmtl that tells the browser where to find the image.
 
 ### How's it look?
 
 ![gif of a Star Wars robot giving a lighter thumbs-up](https://media.giphy.com/media/3o7abB06u9bNzA8lu8/giphy.gif)
+
+### Getting fancier
+
+- Add an "alt" attribute to your `<img>` tag so that people using screen readers will know what's in the image.
+- Change the size of your image using the "height" and "width" attributes.
 
 ## How do you make your web page look even more exciting?
 
@@ -74,21 +100,23 @@ Add CSS to modify the presentation of the elements. Remeber, HTML specifies what
 
 CSS stands for Cascading Style Sheet. The "Style Sheet" part means that the document tells your website how to style all the different components. The "Cascading" part means that CSS operates according to a hierarchy of specificity. The more specific rule always wins. For example:
 
-`.p {
-	color: blue;
-}`
+```
+.p {
+	font-style: italic;
+}
 
-`.morespecific {
+.morespecific {
 	color: purple;
-}`
+}
+``` 
 
 `<p>Here's a paragraph</p>` will render as follows:
 
-<p style="color:blue">Here's a paragraph</p>
+![A line of blue text that reads "Here's a paragraph"](./blue.png)
 
 But `<p class="morespecific">Here's a more specific paragraph</p>` will render in this way:
 
-<p style="color:purple">Here's a more specific paragraph</p>
+![A line of purple text that reads "Here's a more specific paragraph"](./purple.png)
 
 You need:
 - A styles.css file
@@ -107,8 +135,9 @@ You need:
 
 ## Testing out CSS hierarchies
 1. Create a class that adds a strikethrough through all `<h3>` elements.
-2. Create a second class called "right" that aligns anything in the class to the right.
+2. Create a second class called "rightside" that aligns anything in the class to the right.
 3. Add three elements to your website:
 - Something with an `<h3>` tag
-- Something with the class "right"
-- Something with both an `<h3>` tag and the class right 
+- Something with the class "rightside"
+- Something with both an `<h3>` tag and the class "rightside"
+4. Open the page in your browser and compare.
