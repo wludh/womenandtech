@@ -27,15 +27,17 @@ You need:
 1. Create a folder on your desktop called "website."
 2. Inside the folder, create a file called index.html.
 3. Using a text editor, add the following text to index.html:
-`<!DOCTYPE html>`
-`<html>`
-`<head>`
-	`<title>Your website title goes here</title>`
-`</head>`
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your website title goes here</title>
+</head>
 
-`<body>`
-`</body>`
-`</html>`
+<body>
+</body>
+</html>
+```
 
 4. Add some text in between the `<body>` tags.
 5. Open your website using a browser.
