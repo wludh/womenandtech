@@ -26,7 +26,7 @@ For example:
 
 <p>The paragraph tags tell the browser that the content between the tags constitutes a paragraph.</p>
 
-<small>The small tags tell the browser that the content between the tags should be, well, small.</small>
+<i>The i tags tell the browser that the content between the tags should be in italics</i>
 ```
 
 What's that actually look like?
@@ -35,9 +35,42 @@ What's that actually look like?
 
 <p>The paragraph tags tell the browser that the content between the tags constitutes a paragraph.</p>
 
-<small>The small tags tell the browser that the content between the tags should be, well, small.</small>
+*The i tags tell the browser that the content between the tags should be in italics*
 
+### Elements
 
+An HTML element is everything from the start tag to the end tag. This is a `<p>` element:
+
+`<p>The paragraph tags tell the browser that the content between the tags constitutes a paragraph.</p>`
+
+But elements can also be nested. That is, you can have an element inside another element. For instance:
+
+```
+<body>
+	<h3>The H3 tags tell the browser that the content between the tags constitutes a subheading</h3>
+	<i>The i tags tell the browser that the content between the tags should be in italics</i>
+</body>
+```
+
+The `<h3>` and `<i>` elements are part of the content of the `<body>` element.
+
+### Attributes
+
+All HTML elements can have attributes, though they don't all have to. Attributes provide additional information about an element, and usually come in name/value pairs like: name="value".
+
+The kind of attributes an element can have is defined by the start tag--different tags have different elements. For example, HTML links are defined by the `<a>` tag. So, a link in HTML might look like this:
+
+`<a>Here's a description of the link</a>`
+
+See any problems with that element?
+
+![cartoon of Wile E. Coyote running into a tunnel painted onto a wall](https://media.giphy.com/media/mKiLwBtULYfF6/giphy.gif)
+
+It doesn't tell you where the link goes, meaning it doesn't actually go anywhere.
+
+The `<a>` element needs an attribute that gives the URL for the link. In this case, the name of the attribute is "src," and the value is the URL that the link should direct to.
+
+`<a src="http://www.wlu.edu">Here's a description of the link</a>`
 
 ## How do you make a web page?
 
