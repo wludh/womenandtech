@@ -22,16 +22,22 @@ HTML tags are element names surrounded by angle brackets. Most tags come in pair
 For example:
 
 ```
+<h3>The H3 tags tell the browser that the content between the tags constitutes a subheading</h3>
+
 <p>The paragraph tags tell the browser that the content between the tags constitutes a paragraph.</p>
 
-<h2>The H1 tags tell the browser that the content between the tags constitutes a subheading</h2>
+<small>The small tags tell the browser that the content between the tags should be, well, small.</small>
 ```
 
 What's that actually look like?
 
+<h3>The H3 tags tell the browser that the content between the tags constitutes a subheading</h3>
+
 <p>The paragraph tags tell the browser that the content between the tags constitutes a paragraph.</p>
 
-<h2>The H1 tags tell the browser that the content between the tags constitutes a subheading</h2>
+<small>The small tags tell the browser that the content between the tags should be, well, small.</small>
+
+
 
 ## How do you make a web page?
 
