@@ -7,12 +7,31 @@
 
 ## What is HTML?
 
-- Hyper Text Markup Language
-- Content
-- Tag
-- Element
-- Attribute
+[This page](https://www.w3schools.com/html/html_intro.asp) has a pretty good description, including this list:
+- HTML stands for Hyper Text Markup Language
+- HTML describes the structure of Web pages using markup
+- HTML elements are the building blocks of HTML pages
+- HTML elements are represented by tags
+- HTML tags label pieces of content such as "heading", "paragraph", "table", and so on
+- Browsers do not display the HTML tags, but use them to render the content of the page
 
+### Tags
+
+HTML tags are element names surrounded by angle brackets. Most tags come in pairs, with the starting tag coming right before the content that it marks, and the ending tag coming right after. The end tag looks just like the start tag, but with a forward slash right before the tag name.
+
+For example:
+
+```
+<p>The paragraph tags tell the browser that the content between the tags constitutes a paragraph.</p>
+
+<h2>The H1 tags tell the browser that the content between the tags constitutes a subheading</h2>
+```
+
+What's that actually look like?
+
+<p>The paragraph tags tell the browser that the content between the tags constitutes a paragraph.</p>
+
+<h2>The H1 tags tell the browser that the content between the tags constitutes a subheading</h2>
 
 ## How do you make a web page?
 
@@ -22,6 +41,15 @@ You need:
 - An index.html file
 - A browser
 
+### What goes in your HTML document?
+
+Anything you want, really, but you will need a few specific things:
+- Your document should start with a document type declaration: `<!DOCTYPE html>`
+- The document itself begins with `<html>` and ends with `</html>`
+- The part of the document that a browser makes visible goes between `<body>` and `</body>`
+- Before the `<body>` section, it's helpful to include some information about the page between `<head>` and `</head>`
+- Information in the `<head>` section includes a link to a stylesheet (more on this later), the title of your site between `<title>` and `</title>`, and [other metadata](https://www.w3schools.com/html/html_head.asp)
+
 ## Try it out
 
 1. Create a folder on your desktop called "website."
@@ -29,6 +57,7 @@ You need:
 3. Using a text editor, add the following text to index.html:
 ```
 <!DOCTYPE html>
+
 <html>
 <head>
 	<title>Your website title goes here</title>
@@ -80,6 +109,8 @@ Of course it does! But where do you get the pictures? And where do they go?
 You website needs to tell the browser where to find your image, and how to display it. At a bare minimum, you need to include the path to your image in an `<img>` tag:
 
 `<img src="pathtoimage">`
+
+Quick terminology review: "src" is an attribute of the element "img"
 
 ### Try it out
 
