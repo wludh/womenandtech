@@ -5,11 +5,13 @@
 
 ## What is a web page?
 
+A web page is a document that can be displayed in a browser. A collection of web pages that is grouped together and connected is generally called a website. Web pages can involve a number of different programming languages, but the building block of all web pages is HTML.
+
 ## What is HTML?
 
 [This page](https://www.w3schools.com/html/html_intro.asp) has a pretty good description, including this list:
 - HTML stands for Hyper Text Markup Language
-- HTML describes the structure of Web pages using markup
+- HTML describes the structure of web pages using markup
 - HTML elements are the building blocks of HTML pages
 - HTML elements are represented by tags
 - HTML tags label pieces of content such as "heading", "paragraph", "table", and so on
@@ -206,7 +208,7 @@ You need:
 ![gif of Jessica Williams looking excited](https://media.giphy.com/media/3o7abBP0nMjrdIvaCY/giphy.gif)
 
 ## Testing out CSS hierarchies
-1. Create a class that adds a strikethrough through all `<h3>` elements.
+1. Create a class that [adds a strikethrough](https://www.w3schools.com/cssref/pr_text_text-decoration.asp) to all `<h3>` elements.
 2. Create a second class called "rightside" that aligns anything in the class to the right.
 3. Add three elements to your website:
 - Something with an `<h3>` tag
