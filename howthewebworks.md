@@ -70,6 +70,8 @@ See any problems with that element?
 
 <img src="https://media.giphy.com/media/mKiLwBtULYfF6/giphy.gif"/>
 
+![gif of Cher from Clueless looking uncertain](https://media.giphy.com/media/yj5oYHjoIwv28/giphy.gif)
+
 It doesn't tell you where the link goes, meaning it doesn't actually go anywhere.
 
 The `<a>` element needs an attribute that gives the URL for the link. In this case, the name of the attribute is "src," and the value is the URL that the link should direct to.
