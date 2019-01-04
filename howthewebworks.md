@@ -66,7 +66,7 @@ The kind of attributes an element can have is defined by the start tag--differen
 
 See any problems with that element?
 
-![cartoon of Wile E. Coyote running into a tunnel painted onto a wall](https://media.giphy.com/media/mKiLwBtULYfF6/200w_d.gif)
+![cartoon of Wile E. Coyote running into a tunnel painted onto a wall](https://i.imgur.com/tnRkek4.gifv)
 
 It doesn't tell you where the link goes, meaning it doesn't actually go anywhere.
 
