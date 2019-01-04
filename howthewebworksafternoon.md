@@ -6,8 +6,7 @@ Now that we're HTML/CSS experts...
 
 ## What belongs in a web site?
 
-![gif of homer simpson's web page, which is all animated toasters and a dancing Jesus](https://media.giphy.com/media/fJKG1UTK7k64w/giphy.gif)
-![gif](https://giphy.com/gifs/bF2M6el0vi2qc/html5)
+![gif of homer simpson's web page, which is all animated toasters and a dancing Jesus](https://media.giphy.com/media/hNAIvVn5ZW3ug/giphy.gif)
 
 ### Professional sites
 
