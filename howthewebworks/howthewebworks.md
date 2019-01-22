@@ -167,6 +167,14 @@ Add an image tag to index.hmtl that tells the browser where to find the image.
 - Change the size of your image using the "height" and "width" attributes.
 
 ## What if I want more than one page?
+Sure, single page websites are cool, but you might need a second page for all your awesome content. To create a second page, start a new text document and save it with a meaningful name and the .html extension. Maybe `about.html`? Your new document should live in the same folder with `index.html`. To link to your second page, add a link on your first and give the name of the file in the href. 
+
+```
+<a href="about.html">About page</a>
+```
+Remember, file structure matters. If you have a complex site with lots of files and folders, you'll need to include them in your link path. How many folders are there in this link? 
+
+```http://www.wlu.edu/the-williams-school/departments-and-programs/accounting```
 
 ## How do you make your web page look even more exciting?
 
@@ -224,13 +232,16 @@ CSS makes it easy to be consistent with your styling. But what if you want one p
 
 
 You need:
-- A styles.css file
-- A way to tell your web page where to find the styles.css file
+- A style.css file. Create a new text document in your text editor and save it with the `.css` extension. 
+-  A way to tell your web page where to find the style.css file. Insert the following line of code into the `<head>` element in your HTML document: 
+
+```<link rel="stylesheet" type="text/css" href="style.css">
+```
 
 ## Try it out
 
-1. Create a file called styles.css.
-2. Edit your index.html file to tell it where to find styles.css.
+1. Create a file called style.css.
+2. Edit your index.html file to tell it where to find style.css.
 3. Create a class in your stylesheet with a unique name.
 4. Define the class so that it changes the color and the size of text.
 5. Assign the class to a `<p>` element in your website.
