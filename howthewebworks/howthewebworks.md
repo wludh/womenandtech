@@ -185,7 +185,7 @@ Add CSS to modify the presentation of the elements. Remeber, HTML specifies what
 CSS stands for Cascading Style Sheet. The "Style Sheet" part means that the document tells your website how to style all the different components. The "Cascading" part means that CSS operates according to a hierarchy of specificity. The more specific rule always wins. For example:
 
 ```
-.p {
+p {
 	font-style: italic;
 }
 
