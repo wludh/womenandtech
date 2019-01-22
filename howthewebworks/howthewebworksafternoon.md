@@ -54,10 +54,39 @@ Once you have a sketch, you can move on to a wireframe, which is a more complete
 - [How to Design a Useful Wireframe](https://blog.teamtreehouse.com/how-to-design-a-useful-wireframe)
 
 ## Publishing your website 
-You've been viewing your website in your browser, but it's not yet live on the Web. To do so, we need to upload the files to the server that hosts your website. Remember, a website is just a collection of files and folders on someone's computer.
+You've been viewing your website in your browser, but it's not yet live on the Web. To do so, we need to upload the files to the server that hosts your website. Remember, a website is just a collection of files and folders on someone's computer. Let's take a quick tour through the hosting environment of your new website. 
 
 ### Reclaim Hosting
+Your website (username.wludci.info) is hosted by a company called [Reclaim Hosting](http://www.reclaimhosting.com). They provide web hosting for individuals and educational organizations like W&L. While there are lots of web hosting companies out there, we like Reclaim because of their educational focus and excellent support. 
 
+For more help:
+* [Reclaim Support](https://community.reclaimhosting.com/)
+* [Davidson/Emory Documentation](http://domains.davidson.edu/support/getting_started/getting_started)
+
+Back up, what does a web hosting company even do? In our case, Reclaim registers the domain name so when someone visits it, it brings them to the right content. They provide storage space for your text, images, video, and other content. They provide applications that help you install and run WordPress and many other content management systems. You can even set up your own email through your domain. 
 
 ### CPanel
+Most of the stuff you do with your domain happens in the Control Panel or Cpanel. You can access the CPanel by adding `/cpanel` to the end of your domain name. Log in with the username and password provided in an email, and you should see a whole dashboard of icons. From here, you can upload files, install applications, or change any settings. 
+
+### Okay let's make it live! 
+To make your HTML and CSS live on the web, you'll need to upload the files to your website. 
+
+1. Start in CPanel.
+2. Click on File Manager. A new tab should open with a list of files and folders. These are all the things on your domain! 
+3. If you're not already there, navigate to `public_html`. This is where you'll put anything that should be live on the web. 
+4. Click on Upload, then drag your HTML and CSS documents to the window. You can also select `Select File` and upload each file individually. 
+5. Now visit your website `http://username.wludci.info` and see the results! 
+
+### Wait, did you say WordPress? 
+WordPress is a commonly used content management system. It powers many of the sites you visit every day. You might have used WordPress for a class project. You can create as many WordPress sites as you want on your website using the Installatron. 
+
+1. From CPanel, click on `WordPress`. 
+2. On the right, click on the `install this application` box. 
+3. Work through the form, accepting the defaults, EXCEPT... 
+4. Pay close attention to the Location options. If you install WordPress to your domain without specifying a directory, it will install at the root of your website, wiping out anything that might be there already. Typing something in the directory field will install WordPress to that directory/folder. 
+5. You might want to change the Administrator Username and Password to something you'll remember. 
+6. When you're done, click `Install`. 
+7. You'll be able to see your WordPress installation in `My Apps` in CPanel. You can use the link that ends with "admin" to login. 
+
+## HTML5 UP themes 
 
