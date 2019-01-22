@@ -17,3 +17,12 @@ Now that we're HTML/CSS experts...
 ### Wireframing
 
 ### Menus
+
+## Publishing your website 
+You've been viewing your website in your browser, but it's not yet live on the Web. To do so, we need to upload the files to the server that hosts your website. Remember, a website is just a collection of files and folders on someone's computer.
+
+### Reclaim Hosting
+
+
+### CPanel
+
