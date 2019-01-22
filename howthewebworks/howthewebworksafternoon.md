@@ -37,6 +37,8 @@ We usually know good design when we see it, but it can be harder to produce it o
 
 - [10 Top Principles of Effective Web Design](https://shortiedesigns.com/2014/03/10-top-principles-effective-web-design/)
 - [4 key principles of web design](https://99designs.com/blog/tips/web-design-basics-guide/)
+- [6 principles of visual hierarchy for designers](https://99designs.com/blog/tips/6-principles-of-visual-hierarchy/)
+- [12 Visual Hierarchy Principles Every Non-Designer Needs to Know](https://visme.co/blog/visual-hierarchy/)
 
 But one of the most important parts of good design is to suit the design to the content, uses, and audience. This means good design will vary depending on what your goals are for your website. For that reason, it can be helpful to start by thinking about what your website needs to do, and how it should look in order to accomplish that.
 
