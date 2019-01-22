@@ -192,14 +192,45 @@ But `<p class="morespecific">Here's a more specific paragraph</p>` will render i
 
 ![A line of purple text that reads "Here's a more specific paragraph"](./purple.png)
 
+## CSS Syntax
+With CSS comes a new syntax. First, you state which HTML element (or class/id) you wish to modify (also called a selector). Next, you declare the modifications you want to make in between two curly brackets. The modifications are drawn from a list of CSS properties. It's best to check the documentation so you know, for instance, that "color" means font color and "background-color" means the background of the page. Each of the declarations is another form of a name value pair, except this time they are separated with a colon and followed by a semi-colon (and usually a line break). 
+
+```
+body {
+	background-color:blue;
+	font-family: Arial;
+	}
+```
+
+## Classes and IDs
+CSS makes it easy to be consistent with your styling. But what if you want one paragraph to be blue and another to be green? You can use classes and IDs to distinguish between pieces of content. Classes can be used with multiple elements while IDs should only be used once. In your HTML document, insert the class/id as an attribute of the HTML tag you wish to modify. In your CSS document, you select the class/id using either a `.` or a hash `#`. 
+
+```
+<p class="blue">...</p>
+<p id="green">...</p>
+```
+
+```
+.blue {
+	color: blue;
+}
+
+#green {
+	color:green;
+}
+```
+
 You need:
-- A styles.css file
-- A way to tell your web page where to find the styles.css file
+- A style.css file. Create a new text document in your text editor and save it with the `.css` extension. 
+- A way to tell your web page where to find the style.css file. Insert the following line of code into the `<head>` element in your HTML document: 
+
+```<link rel="stylesheet" type="text/css" href="style.css">
+```
 
 ## Try it out
 
-1. Create a file called styles.css.
-2. Edit your index.html file to tell it where to find styles.css.
+1. Create a file called style.css.
+2. Edit your index.html file to tell it where to find style.css.
 3. Create a class in your stylesheet with a unique name.
 4. Define the class so that it changes the color and the size of text.
 5. Assign the class to a `<p>` element in your website.
@@ -215,3 +246,7 @@ You need:
 - Something with the class "rightside"
 - Something with both an `<h3>` tag and the class "rightside"
 4. Open the page in your browser and compare.
+
+
+## Think ahead
+When we come back from lunch, we'll start designing your website. Think about what type of website you might want to make. Will be it a portfolio for employers? A gallery of your favorite dog photos? A site for your hobby/nonprofit/business/club? 
