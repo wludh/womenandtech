@@ -77,6 +77,8 @@ To make your HTML and CSS live on the web, you'll need to upload the files to yo
 4. Click on Upload, then drag your HTML and CSS documents to the window. You can also select `Select File` and upload each file individually. 
 5. Now visit your website `http://username.wludci.info` and see the results! 
 
+![gif of Constance Wu from Fresh Off the Boat saying, "Success"](https://media.giphy.com/media/26BRCoPeetq9cAdhK/giphy.gif)
+
 ### Wait, did you say WordPress? 
 WordPress is a commonly used content management system. It powers many of the sites you visit every day. You might have used WordPress for a class project. You can create as many WordPress sites as you want on your website using the Installatron. 
 
@@ -88,5 +90,19 @@ WordPress is a commonly used content management system. It powers many of the si
 6. When you're done, click `Install`. 
 7. You'll be able to see your WordPress installation in `My Apps` in CPanel. You can use the link that ends with "admin" to login. 
 
-## HTML5 UP themes 
+## HTML5 UP themes
+
+You may not need anything as big and complicated (in terms of the code) as WordPress, but you also may not quite be ready to build your own site from the ground up. Fortunately, there's a middle ground. Well, several kinds of middle ground. One is to use a static site generator like [Jekyll](https://jekyllrb.com/) or [Hugo](https://gohugo.io/). Doing that requires a bit of experience with the [command line](https://lifehacker.com/a-command-line-primer-for-beginners-5633909), but it's definitely something you can figure out if you're interested.
+
+Another option is to download an HTML template and modify it to suit your needs. Doing this requires some knowledge of HTML and CSS (which you now have!), but a lot of the work is done for you, letting you experiment and try things out. You can make changes and see how they work out right away by loading the pages on your browser. There are lots of places to find templates, but one good starting place is [HTML5 UP](https://html5up.net/).
+
+## Try it out
+
+- Download a template from HTML5 UP that fits the design you sketched earlier.
+- Use your text editor to add some content--maybe just your name and some information, or maybe a picture or two.
+- Open the new page in your web browser.
+
+### How's it look?
+
+![gif of a girl in a birthday hat excitedly picking up a glass bowl and throwing it to the ground](https://media.giphy.com/media/yoJC2GnSClbPOkV0eA/giphy.gif)
 
