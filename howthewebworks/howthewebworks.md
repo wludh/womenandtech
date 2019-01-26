@@ -235,7 +235,8 @@ You need:
 - A style.css file. Create a new text document in your text editor and save it with the `.css` extension. 
 -  A way to tell your web page where to find the style.css file. Insert the following line of code into the `<head>` element in your HTML document: 
 
-```<link rel="stylesheet" type="text/css" href="style.css">
+```
+<link rel="stylesheet" type="text/css" href="style.css">
 ```
 
 ## Try it out
