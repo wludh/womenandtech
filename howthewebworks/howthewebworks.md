@@ -252,7 +252,7 @@ You need:
 
 ## Testing out CSS hierarchies
 1. Create a class that [adds a strikethrough](https://www.w3schools.com/cssref/pr_text_text-decoration.asp) to all `<h3>` elements.
-2. Create a second class called "rightside" that aligns anything in the class to the right.
+2. Create a second class called "rightside" that [aligns anything in the class to the right](https://www.w3schools.com/cssref/pr_text_text-align.asp).
 3. Add three elements to your website:
 - Something with an `<h3>` tag
 - Something with the class "rightside"
