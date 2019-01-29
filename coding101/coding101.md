@@ -10,7 +10,7 @@ A little less this...
 
 ... and a little more this...
 
-![gif of Sabrina zapping the radio to life](https://media.giphy.com/media/8caruE0ll6LPPQpF7e/giphy.gif)
+![gif of Sabrina zapping the radio to life](https://media.giphy.com/media/8caruE0ll6LPPQpF7e/200w_d.gif)
 
 ### What is a computer even?
 
