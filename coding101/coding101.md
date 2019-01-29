@@ -79,7 +79,7 @@ Congratulations, you've written your first code!
 
 ![gif of Roz and Sabrina high-fiving](gifs/high_five.gif)
 
-## Variables and data 
+## Variables and data types
 
 Printing is great, but it's only going to get you so far. You're probably going to want to save and manipulate information--names, ages, favorite animals, secrets, weaknesses, and so on. We save information to variables. To create a variable in Python, all you have to do is give it a name and declare its value using an equals sign.
 
@@ -136,7 +136,7 @@ But what if one of your variables is a float or an integer and the other is a st
 
 `print(numtwo + numthree)`
 
-You absolutely can't. You can, however, join two floats together. This is called *concatenation*.
+Nope, you can't. You can, however, join two strings together. This is called *concatenation*.
 
 ```
 name = "My name is Sabrina."
