@@ -118,6 +118,14 @@ What happened to the strings we stored in `numone` and `numtwo`?
 
 When we reassigned the variables, we erased the strings that were stored there.
 
+Not sure what kind of data you have stored in a variable? Use the `type()` method. If you input a variable, `type()` will output the type of data stored in that variable.
+
+```
+print(type(numone))
+print(type(numtwo))
+print(type(numthree))
+```
+
 ### Joining variables
 
 You can join variables together using the `+` sign. If your variables are integers and/or floats, the `+` operation will add them together:
@@ -188,16 +196,39 @@ Write a program that asks the user for their name and then greets them using the
 
 ## Arithmetic
 
+We've already determined that Python will do basic arithmetic: if you add two floats or integers using the `+` sign, you'll get their sum. You can do other basic math, as well using `-`, `/`, and `*`. If you want to get fancier, you can import the `math` module, which will give you access to a wide range of functions, including trigonometric, logarithmic, hyperbolic, and other kinds of functions. For today, though, we're going to stick with basic arithmetic.
+
+You can perform arithmetic on variables, or you can perform arithmetic on numbers and save the answer to a variable:
+
+```
+num1 = 75
+num2 = 52
+print(num1 + num2)
+sum = num1 + num2
+print(sum)
+product = 683 * 6013
+print(product)
+```
+
 ### Try it out
 
-The Spellmans are buying a new TV. The last one was way too small for their enormous, creepy mansion. Write a program that helps people choose the right TV by asking how far the distance between the couch and the TV will be and returns the best screen size.
+The Spellmans are buying a new TV. The last one was way too small for their enormous, creepy mansion. Write a program that helps them choose the right TV by asking how far the distance between the couch and the TV will be and returning the best screen size.
 
 What you need to know:
-- The formula to determine the right size TV is TV = D/2.5, where TV is the ideal screen size and D = distance in inches
 
-![gif of Sabrina and Roz holding hands and acting excited](excitement.gif)
+```
+The formula to determine the right size TV is TV = D/2.5, where TV is the ideal screen size and D = distance in inches
+```
 
-## String methods
+![gif of Sabrina and Roz holding hands and acting excited](gifs/excitement.gif)
+
+## Functions vs. methods
+
+So far, we've used several Python methods and at least one function. Functions and methods are 
+
+## Working with strings
+
+We've already learned one way to work with strings: we can concatenate them using `+`. Python has lots of other methods for manipulating strings: we can convert from upper to lower case or vice versa, search a string for a specific value, split a string into parts, and [much more](https://www.w3schools.com/python/python_ref_string.asp).
 
 ### Try it out
 
@@ -220,7 +251,11 @@ Sabrina is casting a spell that requires her to write out the name of a demon ov
 
 ![gif of Sabrina, Nick, and Prudence chanting, "Rise, Rise, Rise"](gifs/rise.gif)
 
+## Lists
+
 ## Functions
+
+
 
 codeacademy order:
 - print
