@@ -10,7 +10,6 @@ A little less this...
 
 ... and a little more this...
 
-![gif of Sabrina zapping the radio to life](https://media.giphy.com/media/8caruE0ll6LPPQpF7e/200w_d.gif)
 ![gif of Sabrina zapping the radio to life](gifs/sabrina.gif)
 
 ### What is a computer even?
@@ -39,7 +38,7 @@ In fact, the first computer programmer was a woman: Ada Lovelace.
 - [Betsy Morais, "Ada Lovelace, teh First Tech Visonary"](https://www.newyorker.com/tech/annals-of-technology/ada-lovelace-the-first-tech-visionary)
 - [Laura Sydell, "The Forgotten Female Programmers Who Created Modern Tech"](https://www.npr.org/sections/alltechconsidered/2014/10/06/345799830/the-forgotten-female-programmers-who-created-modern-tech)
 
-![gif of the women from Hidden Figures walking down the hall, with the caption, "Okay ladies, now let's get information"](https://media.giphy.com/media/xThtajIXd9PxmJFxAY/giphy.gif)
+![gif of the women from Hidden Figures walking down the hall, with the caption, "Okay ladies, now let's get information"](gifs/hidden_figures.gif)
 
 
 ## What is Python and how do I use it?
@@ -52,7 +51,7 @@ In fact, the first computer programmer was a woman: Ada Lovelace.
 
 "Python is almost always the second best language for any problem"
 
-![gif of Nick Scratch saying, "Conjuration. Demonology. Invocation. Ritual Magic."](https://media.giphy.com/media/1mglCujdwXDvKPqGF3/giphy.gif)
+![gif of Nick Scratch saying, "Conjuration. Demonology. Invocation. Ritual Magic."](gifs/problems.gif)
 
 ### How do I use Python?
 
@@ -78,7 +77,7 @@ Write your first program by copying the following code into your interpreter and
 
 Congratulations, you've written your first code!
 
-![gif of Roz and Sabrina high-fiving](https://media.giphy.com/media/1fgKcUz0DYyKZd0YpJ/giphy.gif)
+![gif of Roz and Sabrina high-fiving](gifs/high_five.gif)
 
 ## Variables and data 
 
@@ -196,7 +195,7 @@ The Spellmans are buying a new TV. The last one was way too small for their enor
 What you need to know:
 - The formula to determine the right size TV is TV = D/2.5, where TV is the ideal screen size and D = distance in inches
 
-![gif of Sabrina and Roz holding hands and acting excited](https://media.giphy.com/media/YUxesd5TB5C809cc7j/giphy.gif)
+![gif of Sabrina and Roz holding hands and acting excited](excitement.gif)
 
 ## String methods
 
@@ -212,14 +211,14 @@ Sabrina is having a sleepover and is preparing some games. Write a mad libs prog
 
 Mad libs was a hit, but the guests are getting restless. Write another story, but this time, give the user more control by letting them choose your own adventure. The adventure doesn't *have* to be scary, but that's always an added bonus.
 
-![gif of Ambrose saying, "Spooky."](https://media.giphy.com/media/C9Mi8c9jYXvNvvIE0Q/giphy.gif)
+![gif of Ambrose saying, "Spooky."](gifs/spooky.gif)
 
 ## Loops
 
 ### Try it out
 Sabrina is casting a spell that requires her to write out the name of a demon over and over and over and over again. Write a program to automate this part of the spell by asking for the demon's name and the number of repetitions required, and then printing the name the requested number of times.
 
-![gif of Sabrina, Nick, and Prudence chanting, "Rise, Rise, Rise"](https://media.giphy.com/media/c7NW30zHO9vt0eKUwJ/giphy.gif)
+![gif of Sabrina, Nick, and Prudence chanting, "Rise, Rise, Rise"](gifs/rise.gif)
 
 ## Functions
 
