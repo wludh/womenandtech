@@ -2,7 +2,7 @@
 
 ## What is coding?
 
-(This [introduction to coding](https://gitpitch.com/ZoeLeBlanc/Coding_101) is adapted from a presentation by Zoe LeBlanc and the UVa Scholars' Lab)
+(This introduction to coding is adapted from a [presentation](https://gitpitch.com/ZoeLeBlanc/Coding_101) by Zoe LeBlanc and the UVa Scholars' Lab)
 
 A little less this...
 
@@ -224,7 +224,7 @@ The formula to determine the right size TV is TV = D/2.5, where TV is the ideal 
 
 ## Functions vs. methods
 
-So far, we've used several Python methods and at least one function. Functions and methods are 
+So far, we've used several Python methods and several methods. Functions and methods are both built-in 
 
 ## Working with strings
 
