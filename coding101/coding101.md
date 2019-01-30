@@ -79,6 +79,14 @@ Congratulations, you've written your first code!
 
 ![gif of Roz and Sabrina high-fiving](gifs/high_five.gif)
 
+### Saving your code
+
+We'll be running all of our code in the repl interpreter, and saving our programs to repl. But a Python script looks the same whether it's on repl or on your computer: it's a plain-text file of commands in Python, with a filename that ends in `.py`. In repl, you can create a new file by clicking on the "New file" button and giving your file a name.
+
+### Try it out
+
+Create a separate Python script called `hello.py` with the code we wrote above.
+
 ## Variables and data types
 
 Printing is great, but it's only going to get you so far. You're probably going to want to save and manipulate information--names, ages, favorite animals, secrets, weaknesses, and so on. We save information to variables. To create a variable in Python, all you have to do is give it a name and declare its value using an equals sign.
@@ -192,7 +200,7 @@ print("A woodchuck could chuck " + answer + " much wood.")
 
 ### Try it out
 
-Write a program that asks the user for their name and then greets them using their name.
+In a file called `greeting.py`, write a program that asks the user for their name and then greets them using their name.
 
 ## Arithmetic
 
@@ -212,13 +220,15 @@ print(product)
 
 ### Try it out
 
-The Spellmans are buying a new TV. The last one was way too small for their enormous, creepy mansion. Write a program that helps them choose the right TV by asking how far the distance between the couch and the TV will be and returning the best screen size.
+The Spellmans are buying a new TV. The last one was way too small for their enormous, creepy mansion. Create a new file called `tv.py` and write a program that helps them choose the right TV by asking how far the distance between the couch and the TV will be and returning the best screen size.
 
 What you need to know:
 
-```
 The formula to determine the right size TV is TV = D/2.5, where TV is the ideal screen size and D = distance in inches
-```
+
+Extra practice:
+
+
 
 ![gif of Sabrina and Roz holding hands and acting excited](gifs/excitement.gif)
 
@@ -230,11 +240,35 @@ So far, we've used several Python methods and several methods. Functions and met
 
 We've already learned one way to work with strings: we can concatenate them using `+`. Python has lots of other methods for manipulating strings: we can convert from upper to lower case or vice versa, search a string for a specific value, split a string into parts, and [much more](https://www.w3schools.com/python/python_ref_string.asp).
 
+A few handy string methods:
+
+`capitalize()` | Converts the first character to upper case
+`lower()` | Converts the string into lower case
+`upper()` | Converts the string into upper case
+
 ### Try it out
 
-Sabrina is having a sleepover and is preparing some games. Write a mad libs program for the guests to play. Ask the user for at least one verb, one noun, and one adjective, and one curse word, and then use those choices to fill in the blanks in a story that the program prints out. Add some drama to the story by printing the curse word in all caps.
+Sabrina is having a sleepover and is preparing some games. Write a mad libs program for the guests to play and save it as `mad_libs.py`. Ask the user for at least one verb, one noun, and one adjective, and one curse word, and then use those choices to fill in the blanks in a story that the program prints out. Add some drama to the story by printing the curse word in all caps.
+
+Extra practice:
+
+Use string methods to make sure that all of the words and sentences in your story are properly capitalized.
 
 ![gif of Aunt Zelda saying, "Praise Satan."](https://media.giphy.com/media/X9GWUOYngS0e4mL43W/giphy.gif)
+
+## Putting it all together
+
+The Weird Sisters have cursed Sabrina with an unknown and terrible catastrophe that will befall her on her 100th birthday. Write a program that asks Sabrina for her age, converts the input to an integer, and then tells Sabrina how many years she has until the curse kicks in.
+
+What you need to know:
+
+By default, the data stored in a variable by the `input()` function is a string. If all of the characters the user inputs are numbers, you can convert the string to an integer by passing the variable to the `int()` method. For example:
+
+```
+print("Give me a number")
+answer = input()
+new_integer = int(answer)
+```
 
 ## Conditionals
 
@@ -244,6 +278,26 @@ Mad libs was a hit, but the guests are getting restless. Write another story, bu
 
 ![gif of Ambrose saying, "Spooky."](gifs/spooky.gif)
 
+## Comparisons
+
+One common way of structuring conditionals is to compare two values and then take different actions depending on whether the two values are equal. Comparison operators in Python are similar to operators in basic arithmetic, with a few minor changes. Greater than and less than are just what you would think: `>` and `<`. Other comparison operators include"
+
+`==` | Equal to
+`!=` | Not equal
+`>=` | Greater than or equal to
+`<=` | Less than or equal to
+
+You can use comparisons in conditional statements like so:
+
+```
+num1 = input("Pick a number ")
+num2 = input("Pick another number ")
+if num1 == num2:
+	print("Those numbers are the same!")
+else:
+	print("That's nice")
+```
+
 ## Loops
 
 ### Try it out
@@ -251,11 +305,31 @@ Sabrina is casting a spell that requires her to write out the name of a demon ov
 
 ![gif of Sabrina, Nick, and Prudence chanting, "Rise, Rise, Rise"](gifs/rise.gif)
 
+## Putting it all together
+
+Instead of playing rock, paper, scissors, witches play potion, curse, incantation. The rules are the same:
+
+```
+Potion beats curse
+Curse beats incantation
+Incantation beats potion
+```
+
+Make a two-player Potion-Curse-Incantation game. Ask the players for their names and have them choose potion, curse, or incantation. Compare the responses and print out a message of congratulations to the winner.
+
 ## Lists
 
 ## Functions
 
 
+
+
+
+Holding pen
+
+### Boolean types
+
+Python has several other data types in addition to strings, integers, and floats. The last data type we'll talk about today is *Boolean*. A Boolean type has only two values, True and False, and a variable that's a Boolean will always be either True or False.
 
 codeacademy order:
 - print
