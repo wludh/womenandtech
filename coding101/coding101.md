@@ -234,13 +234,31 @@ Extra practice:
 
 ![gif of Sabrina and Roz holding hands and acting excited](gifs/excitement.gif)
 
-## Functions vs. methods
-
-So far, we've used several Python methods and several methods. Functions and methods are both built-in 
 
 ## Working with strings
 
 We've already learned one way to work with strings: we can concatenate them using `+`. Python has lots of other methods for manipulating strings: we can convert from upper to lower case or vice versa, search a string for a specific value, split a string into parts, and [much more](https://www.w3schools.com/python/python_ref_string.asp).
+
+### Functions, methods, and dot notation
+
+In order to use string methods, we need to understand a little bit about what a method is, and how it's different from a function.
+
+So far, we've used several Python methods and several functions. Functions and methods are both bundles of code that we can use. Some are built in, and some are user-defined (more on that part later). For our purposes, functions and methods are pretty similar, but there are some differencs that affect the way we use them. Functions are indendent, while methods are associated with objects (usually variables). `print()` and `input()` are functions--you can call them using their names and you don't need to associate them with any other objects. `type()` is a method: it requires an object to run--a variable whose type you want to determine.
+
+When you use `type()`, you pass a variable into the parentheses. Other methods are structured using *dot notation*. To use these methods, you append the object the method will operate on before the method using a dot. For instance, the `lower()` method converts a string to lowercase.
+
+```
+lowered = "MAKE THIS STRING LOWERCASE".lower()
+print(lowered)
+
+upper = "THIS VARIABLE CONTAINS AN UPPERCASE STRING"
+lowered2 = upper.lower()
+print(lowered2)
+```
+
+You'll notice that string methods will work on both a string that you define (the first example), or on a variable that contains a string (the second example).
+
+### String methods
 
 A few handy string methods:
 
@@ -250,13 +268,33 @@ lower() | Converts the string into lower case
 upper() | Converts the string into upper case
 ```
 
+For example:
+
+```
+var = "this string is all lowercase"
+upper_var = var.upper()
+print(upper_var)
+```
+
+![gif of Aunt Zelda saying, "We'll have none of your necromancy."](gifs/necromancy.gif)
+
+### Parameters
+
+Some string methods require not only an object, but also a parameter. For instance, `replace()` searches a string for a specific value and returns a string where that value has been replaced with another. In order to work, the `replace()` method needs three things: the string it should search and replace (the object), and the search term and the replacement term (the parameters).
+
+```
+var = "Double, double, toil and trouble; Fire burn, and cauldron bubble."
+newstring = var.replace("bubble", "fizzle")
+print(newstring)
+```
+
 ### Try it out
 
-Sabrina is having a sleepover and is preparing some games. Write a mad libs program for the guests to play and save it as `mad_libs.py`. Ask the user for at least one verb, one noun, and one adjective, and one curse word, and then use those choices to fill in the blanks in a story that the program prints out. Add some drama to the story by printing the curse word in all caps.
+Sabrina is having a sleepover and is preparing some games. Write a mad libs program for the guests to play and save it as `mad_libs.py`. Ask the user for at least one verb, one noun, and one adjective, and one curse word, and then use those choices to fill in the blanks in a story that the program prints out. Add some drama to the story by printing the curse word in all caps. Use string methods to make sure that all of the words and sentences in your story are properly capitalized.
 
 Extra practice:
 
-Use string methods to make sure that all of the words and sentences in your story are properly capitalized.
+Save the final mad libs story to a variable. Ask the user for one word that's in the story, and one that isn't. Replace all occurences of the first word with the second.
 
 ![gif of Aunt Zelda saying, "Praise Satan."](https://media.giphy.com/media/X9GWUOYngS0e4mL43W/giphy.gif)
 
