@@ -1,8 +1,10 @@
 # Coding 101
 
+![gif of the women from Hidden Figures walking down the hall, with the caption, "Okay ladies, now let's get information"](gifs/hidden_figures.gif)
+
 ## What is coding?
 
-(This introduction to coding is adapted from a [presentation](https://gitpitch.com/ZoeLeBlanc/Coding_101) by Zoe LeBlanc and the UVa Scholars' Lab)
+(Parts of this introduction to coding is adapted from a [presentation](https://gitpitch.com/ZoeLeBlanc/Coding_101) by Zoe LeBlanc and the UVa Scholars' Lab)
 
 A little less this...
 
@@ -35,10 +37,10 @@ A little less this...
 In fact, the first computer programmer was a woman: Ada Lovelace.
 
 - [Albert Palka, "The Untold History of Women in Software Development"](https://medium.com/codequest/the-untold-history-of-women-in-software-development-299ddc80dd80)
-- [Betsy Morais, "Ada Lovelace, teh First Tech Visonary"](https://www.newyorker.com/tech/annals-of-technology/ada-lovelace-the-first-tech-visionary)
+- [Betsy Morais, "Ada Lovelace, the First Tech Visonary"](https://www.newyorker.com/tech/annals-of-technology/ada-lovelace-the-first-tech-visionary)
 - [Laura Sydell, "The Forgotten Female Programmers Who Created Modern Tech"](https://www.npr.org/sections/alltechconsidered/2014/10/06/345799830/the-forgotten-female-programmers-who-created-modern-tech)
 
-![gif of the women from Hidden Figures walking down the hall, with the caption, "Okay ladies, now let's get information"](gifs/hidden_figures.gif)
+![gif of Madam Satan saying, "Women should be in charge of everything."](gifs/women.gif)
 
 
 ## What is Python and how do I use it?
@@ -97,7 +99,7 @@ Once you've created a variable, you can use the variable name to access its cont
 
 `print(greeting)`
 
-Notice that we didn't need quotation marks around `greeting`. That's because `greeting` is a variable, and can be called without using quotation marks. In our earlier `print` statement, we were printing a *string*, which requires quotation marks. As we noted earlier, a set of characters other than numbers is called a *string*. Strings need to be surrounded by quotation marks, and can contain any type of character, including letters, numbers, spaces, and special characters.
+Notice that we didn't need quotation marks around `greeting`. That's because `greeting` is a variable, and can be called without using quotation marks. In our earlier `print` statement, we were printing a *string*, which requires quotation marks. As we noted earlier, a set of characters other than numbers is called a string. Strings need to be surrounded by quotation marks, and can contain any type of character, including letters, numbers, spaces, and special characters.
 
 ```
 numone = "one"
@@ -242,9 +244,11 @@ We've already learned one way to work with strings: we can concatenate them usin
 
 A few handy string methods:
 
-`capitalize()` | Converts the first character to upper case
-`lower()` | Converts the string into lower case
-`upper()` | Converts the string into upper case
+```
+capitalize() | Converts the first character to upper case
+lower() | Converts the string into lower case
+upper() | Converts the string into upper case
+```
 
 ### Try it out
 
@@ -270,6 +274,8 @@ answer = input()
 new_integer = int(answer)
 ```
 
+![gif of Sabrina saying, "Nothing's ever easy, is it?"](gifs/easy.gif)
+
 ## Conditionals
 
 ### Try it out
@@ -282,10 +288,12 @@ Mad libs was a hit, but the guests are getting restless. Write another story, bu
 
 One common way of structuring conditionals is to compare two values and then take different actions depending on whether the two values are equal. Comparison operators in Python are similar to operators in basic arithmetic, with a few minor changes. Greater than and less than are just what you would think: `>` and `<`. Other comparison operators include"
 
-`==` | Equal to
-`!=` | Not equal
-`>=` | Greater than or equal to
-`<=` | Less than or equal to
+```
+== | Equal to
+!= | Not equal
+>= | Greater than or equal to
+<= | Less than or equal to
+```
 
 You can use comparisons in conditional statements like so:
 
@@ -307,7 +315,7 @@ Sabrina is casting a spell that requires her to write out the name of a demon ov
 
 ## Putting it all together
 
-Instead of playing rock, paper, scissors, witches play potion, curse, incantation. The rules are the same:
+Instead of playing Rock-Paper-Scissors, witches play Potion-Curse-Incantation. The rules are the same:
 
 ```
 Potion beats curse
@@ -316,6 +324,8 @@ Incantation beats potion
 ```
 
 Make a two-player Potion-Curse-Incantation game. Ask the players for their names and have them choose potion, curse, or incantation. Compare the responses and print out a message of congratulations to the winner.
+
+![gif of Sabrina dancing on her way up the stairs](gifs/dancing.gif)
 
 ## Lists
 
