@@ -243,7 +243,7 @@ We've already learned one way to work with strings: we can concatenate them usin
 
 In order to use string methods, we need to understand a little bit about what a method is, and how it's different from a function.
 
-So far, we've used several Python methods and several functions. Functions and methods are both bundles of code that we can use. Some are built in, and some are user-defined (more on that part later). For our purposes, functions and methods are pretty similar, but there are some differencs that affect the way we use them. Functions are indendent, while methods are associated with objects (usually variables). `print()` and `input()` are functions--you can call them using their names and you don't need to associate them with any other objects. `type()` is a method: it requires an object to run--a variable whose type you want to determine.
+So far, we've used several Python methods and several functions. Functions and methods are both bundles of code that we can use. Some are built in, and some are user-defined (more on that part later). For our purposes, functions and methods are pretty similar, but there are some differencs that affect the way we use them. Functions are indendent, while methods are associated with objects (usually variables). `print()` and `input()` are functions--you can call them using their names and you don't need to associate them with any other objects. `type()` is a method: it requires an object to run, in this case, a variable whose type you want to determine.
 
 When you use `type()`, you pass a variable into the parentheses. Other methods are structured using *dot notation*. To use these methods, you append the object the method will operate on before the method using a dot. For instance, the `lower()` method converts a string to lowercase.
 
@@ -288,6 +288,8 @@ newstring = var.replace("bubble", "fizzle")
 print(newstring)
 ```
 
+In this case, the method is `replace()`, the object is the variable containing the string, `var`, and the parameters are the terms that will be searched and then replaced, `"bubble"` and `"fizzle"`.
+
 ### Try it out
 
 Sabrina is having a sleepover and is preparing some games. Write a mad libs program for the guests to play and save it as `mad_libs.py`. Ask the user for at least one verb, one noun, and one adjective, and one curse word, and then use those choices to fill in the blanks in a story that the program prints out. Add some drama to the story by printing the curse word in all caps. Use string methods to make sure that all of the words and sentences in your story are properly capitalized.
@@ -316,15 +318,21 @@ new_integer = int(answer)
 
 ## Conditionals
 
-### Try it out
+In coding, as in life, it's helpful to be able to make different choices depending on the circumstances. *Conditional statements* allow us to plan for different possibilities in our code. Python has three conditional statements:
 
-Mad libs was a hit, but the guests are getting restless. Write another story, but this time, give the user more control by letting them choose your own adventure. The adventure doesn't *have* to be scary, but that's always an added bonus.
+```
+if
+elseif
+else
+```
 
-![gif of Ambrose saying, "Spooky."](gifs/spooky.gif)
+Conditional statements operate like flowcharts: you go in one direction or the other based on whether a statement is true.
 
-## Comparisons
+![a complicated flowchart about how to make a horror movie](img/flowchart.jpeg)
 
-One common way of structuring conditionals is to compare two values and then take different actions depending on whether the two values are equal. Comparison operators in Python are similar to operators in basic arithmetic, with a few minor changes. Greater than and less than are just what you would think: `>` and `<`. Other comparison operators include"
+### Comparisons
+
+In order to set up conditional statements, we need to be able to compare two values and then take different actions depending on whether the two values are equal. Comparison operators in Python are similar to operators in basic arithmetic, with a few minor changes. Greater than and less than are just what you would think: `>` and `<`. Other comparison operators include:
 
 ```
 == | Equal to
@@ -343,6 +351,14 @@ if num1 == num2:
 else:
 	print("That's nice")
 ```
+
+You'll notice a few new additions to that code: colons and indentation. In Python, a colon introduces a block of code that operates inside another piece of code (much like we used `<` and `>` in HTML, or `{` and `}` in CSS). In addition, the section of code that's nested inside the code is indented. The indentations help us read the code and recognize the nested portions. They're also required for the code to run. Most text editors will help you out and indent your code for you following a colon.
+
+### Try it out
+
+Mad libs was a hit, but the guests are getting restless. Write another story, but this time, give the user more control by letting them choose their own adventure. The adventure doesn't *have* to be scary, but that's always an added bonus.
+
+![gif of Ambrose saying, "Spooky."](gifs/spooky.gif)
 
 ## Loops
 
