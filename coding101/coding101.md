@@ -335,7 +335,7 @@ Conditional statements operate like flowcharts: you go in one direction or the o
 In order to set up conditional statements, we need to be able to compare two values and then take different actions depending on whether the two values are equal. Comparison operators in Python are similar to operators in basic arithmetic, with a few minor changes. Greater than and less than are just what you would think: `>` and `<`. Other comparison operators include:
 
 ```
-== | Equal to
+== | Equal
 != | Not equal
 >= | Greater than or equal to
 <= | Less than or equal to
