@@ -228,10 +228,6 @@ What you need to know:
 
 The formula to determine the right size TV is TV = D/2.5, where TV is the ideal screen size and D = distance in inches
 
-Extra practice:
-
-
-
 ![gif of Sabrina and Roz holding hands and acting excited](gifs/excitement.gif)
 
 
