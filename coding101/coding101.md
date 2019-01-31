@@ -4,7 +4,7 @@
 
 ## What is coding?
 
-(Parts of this introduction to coding is adapted from a [presentation](https://gitpitch.com/ZoeLeBlanc/Coding_101) by Zoe LeBlanc and the UVa Scholars' Lab)
+(Parts of this introduction to coding are adapted from a [presentation](https://gitpitch.com/ZoeLeBlanc/Coding_101) by Zoe LeBlanc and the UVa Scholars' Lab)
 
 A little less this...
 
@@ -328,7 +328,7 @@ else
 
 Conditional statements operate like flowcharts: you go in one direction or the other based on whether a statement is true.
 
-![a complicated flowchart about how to make a horror movie](img/flowchart.jpeg)
+![a complicated flowchart about how to make a horror movie](img/flowchart.png)
 
 ### Comparisons
 
@@ -362,8 +362,68 @@ Mad libs was a hit, but the guests are getting restless. Write another story, bu
 
 ## Loops
 
+In programming, it's okay to be lazy. It's encouraged, even. Why type something when you can copy and paste? Often, we want to perform an action multiple times inside a program. We could copy and paste bits of code multiple times, but that would be extra work, and would make our code harder to read. Instead, we use *loops* to complete the same task multiple times.
+
+*For* loops are generally used when you have a block of code you want to repeat a fixed number of times. For example:
+
+```
+for x in range(5):
+	print(x)
+```
+
+The `range()` function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends with a specified number. If you don't want to start with 0, you can input a different starting-point:
+
+```
+for x in range (7, 21):
+	print(x)
+```
+
+You can also tell the function to iterate by a number other than 1:
+
+```
+for x in range(10, 50, 5):
+	print(x)
+```
+
+![gif of Sabrina blowing out candles](gifs/candles.gif)
+
+### While loops
+
+Sometimes, rather than running a loop a set number of times, we want to run a loop while a condition or set of conditions is true. In that case, we use a *while* loop. We can use a while loop to iterate in a different fashion from a for loop:
+
+```
+i = 1
+while i < 10:
+	print(i)
+	i += 1
+```
+
+`i += 1` is a way of iterating `i` such that every time the program comes to that line, it reassigns `i` to equal `i + 1`.
+
+The example above is still looping over a specified range of numbers. But we can also write a loop that repeats as long as a certain condition is met, or until a certain condition is met.
+
+```
+answer = "teal"
+while answer != "purple":
+	answer = input("What's your favorite color? ")
+```
+
+Right now, when the loop is completed, it just ends. But what if you want to take a different action when the loop is over?
+
+```
+answer = "teal"
+while answer != "purple":
+	answer = input("What's your favorite color? ")
+else:
+	print("You finally go the right answer!")
+```
+
 ### Try it out
 Sabrina is casting a spell that requires her to write out the name of a demon over and over and over and over again. Write a program to automate this part of the spell by asking for the demon's name and the number of repetitions required, and then printing the name the requested number of times.
+
+Extra practice:
+
+Print out an encouraging message for Sabrina when the demon's name has been written the required number of times.
 
 ![gif of Sabrina, Nick, and Prudence chanting, "Rise, Rise, Rise"](gifs/rise.gif)
 
@@ -389,7 +449,7 @@ Make a two-player Potion-Curse-Incantation game. Ask the players for their names
 
 
 
-Holding pen
+## Holding pen
 
 ### Boolean types
 
