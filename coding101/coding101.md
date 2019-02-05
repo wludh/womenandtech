@@ -350,6 +350,16 @@ else:
 
 You'll notice a few new additions to that code: colons and indentation. In Python, a colon introduces a block of code that operates inside another piece of code (much like we used `<` and `>` in HTML, or `{` and `}` in CSS). In addition, the section of code that's nested inside the code is indented. The indentations help us read the code and recognize the nested portions. They're also required for the code to run. Most text editors will help you out and indent your code for you following a colon.
 
+### Boolean types
+
+Python has several other data types in addition to strings, integers, and floats. The last data type we'll talk about today is *Boolean*. A Boolean type has only two values, True and False, and a variable that's a Boolean will always be either True or False. You can use Boolean values to evaluate comparisons.
+
+```
+print(5 == 5)
+print(5 == 6)
+print("up" == "down")
+```
+
 ### Try it out
 
 Mad libs was a hit, but the guests are getting restless. Write another story, but this time, give the user more control by letting them choose their own adventure. The adventure doesn't *have* to be scary, but that's always an added bonus.
@@ -447,9 +457,7 @@ Make a two-player Potion-Curse-Incantation game. Ask the players for their names
 
 ## Holding pen
 
-### Boolean types
 
-Python has several other data types in addition to strings, integers, and floats. The last data type we'll talk about today is *Boolean*. A Boolean type has only two values, True and False, and a variable that's a Boolean will always be either True or False.
 
 codeacademy order:
 - print
