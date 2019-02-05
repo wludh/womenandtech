@@ -451,38 +451,3 @@ Make a two-player Potion-Curse-Incantation game. Ask the players for their names
 
 ## Functions
 
-
-
-
-
-## Holding pen
-
-
-
-codeacademy order:
-- print
-- strings and concatenation
-- errors
-- variables
-- arithmetic
-- updating variables
-- comments
-- numbers (integers and floats)
-- two types of division/float()
-- multi-line strings
-- booleans
-- valueerror
-- strings
-- escaping characters
-- access by index
-- string methods
-- lower()
-- upper()
-- str()
-- dot notation
-- printing strings
-- printing variables
-- string concatenation
-- explicit string conversion
-- string formatting with %
-
