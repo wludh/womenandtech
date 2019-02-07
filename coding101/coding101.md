@@ -228,6 +228,14 @@ What you need to know:
 
 The formula to determine the right size TV is TV = D/2.5, where TV is the ideal screen size and D = distance in inches
 
+By default, the data stored in a variable by the `input()` function is a string. If all of the characters the user inputs are numbers, you can convert the string to an integer by passing the variable to the `int()` method. For example:
+
+```
+print("Give me a number")
+answer = input()
+new_integer = int(answer)
+```
+
 ![gif of Sabrina and Roz holding hands and acting excited](gifs/excitement.gif)
 
 
@@ -305,16 +313,6 @@ Save the final mad libs story to a variable. Ask the user for one word that's in
 ## Putting it all together
 
 The Weird Sisters have cursed Sabrina with an unknown and terrible catastrophe that will befall her on her 100th birthday. Write a program that asks Sabrina for her age, converts the input to an integer, and then tells Sabrina how many years she has until the curse kicks in.
-
-What you need to know:
-
-By default, the data stored in a variable by the `input()` function is a string. If all of the characters the user inputs are numbers, you can convert the string to an integer by passing the variable to the `int()` method. For example:
-
-```
-print("Give me a number")
-answer = input()
-new_integer = int(answer)
-```
 
 ![gif of Sabrina saying, "Nothing's ever easy, is it?"](gifs/easy.gif)
 
