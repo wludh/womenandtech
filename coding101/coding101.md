@@ -455,5 +455,14 @@ Make a two-player Potion-Curse-Incantation game. Ask the players for their names
 
 ## Lists
 
+Variables are great for storing information, but sometimes we want to store a lot more information, or sort and manipulate the information we have. In Python, we can store data types in various data structures that allow us to work with large amounts of data.
+
+*Lists* are unordered, comma-separated collections of any values. A list can include all of the different data types we have discussed, and allows us to extract some or all of the values and use them in our code.
+
+For more information about lists, as well as practice exercises, check out [this section from Zoe LeBlanc's Python workshop](https://github.com/ZoeLeBlanc/Coding_101/tree/master/intro_python).
+
 ## Functions
 
+We've used lots of built-in functions, but you can also write your own functions! Defining your own functions is particularly helpful when you have a block of code you want to use multiple times. You could copy and paste, but a function allows you to write out the code once and then use a much shorter command to call that code wherever you need it.
+
+To learn more about functions, [this tutorial](https://www.datacamp.com/community/tutorials/functions-python-tutorial) is a great place to start.
