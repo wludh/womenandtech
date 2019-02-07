@@ -241,12 +241,9 @@ In order to use string methods, we need to understand a little bit about what a 
 
 So far, we've used several Python methods and several functions. Functions and methods are both bundles of code that we can use. Some are built in, and some are user-defined (more on that part later). For our purposes, functions and methods are pretty similar, but there are some differencs that affect the way we use them. This [explanation from Stack Overflow](https://stackoverflow.com/a/155722) may be helpful:
 
-```
-In general: methods are functions that belong to a class, functions can be on any other scope of the code so you could state that all methods are functions, but not all functions are methods...
+> In general: methods are functions that belong to a class, functions can be on any other scope of the code so you could state that all methods are functions, but not all functions are methods...
 
-Think of methods as things only one entity can do, so if you have a Dog class it would make sense to have a bark function only inside that class and that would be a method, if you have also a Person class it could make sense to write a function "feed" for that doesn't belong to any class since both humans and dogs can be fed and you could call that a function since it does not belong to any class in particular.
-
-```
+> Think of methods as things only one entity can do, so if you have a Dog class it would make sense to have a bark function only inside that class and that would be a method, if you have also a Person class it could make sense to write a function "feed" for that doesn't belong to any class since both humans and dogs can be fed and you could call that a function since it does not belong to any class in particular.
 
 Because methods are more specific than functions, they are always associated with objects (usually variables). `print()` and `input()` are functions--you can call them using their names and you don't need to associate them with any other objects. `type()` is a method: it requires an object to run, in this case, a variable whose type you want to determine.
 
