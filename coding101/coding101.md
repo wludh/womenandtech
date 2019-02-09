@@ -83,7 +83,19 @@ Congratulations, you've written your first code!
 
 ### Saving your code
 
-We'll be running all of our code in the repl interpreter, and saving our programs to repl. But a Python script looks the same whether it's on repl or on your computer: it's a plain-text file of commands in Python, with a filename that ends in `.py`. In repl, you can create a new file by clicking on the "New file" button and giving your file a name. **Heads-up: repl is a bit quirky in that you can only run code from main.py. Feel free to save your code into new files, just know that you'll need to copy it back to main.py to run it.**
+We'll be running all of our code in the repl interpreter, and saving our programs to repl. But a Python script looks the same whether it's on repl or on your computer: it's a plain-text file of commands in Python, with a filename that ends in `.py`. In repl, you can create a new file by clicking on the "New file" button and giving your file a name. Heads-up: repl is a bit quirky in that you can only run code from `main.py`. In order to run code that you've saved in another file, you need to import the code in `main.py` and run it from there. You can do this by including the following line in `main.py`:
+
+```
+from [name of file withouth the extension] import *
+```
+
+For example, if you have a file called `new.py`, you would include the following line in `main.py`:
+
+```
+from new import *
+```
+
+Then click run in `main.py` and your code will execute.
 
 ### Try it out
 
