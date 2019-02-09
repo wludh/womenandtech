@@ -461,6 +461,10 @@ Incantation beats potion
 
 Make a two-player Potion-Curse-Incantation game. Ask the players for their names and have them choose potion, curse, or incantation. Compare the responses and print out a message of congratulations to the winner.
 
+Extra practice:
+
+After you declare the winner, ask the user if they want to play again. Continue to loop through the game until the users says no.
+
 ![gif of Sabrina dancing on her way up the stairs](gifs/dancing.gif)
 
 ## Lists
