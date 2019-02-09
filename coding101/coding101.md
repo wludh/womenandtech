@@ -439,6 +439,28 @@ while answer != "purple":
 else:
 	print("You finally go the right answer!")
 ```
+### Nesting
+
+You can also nest conditionals inside of loops and loops inside of conditionals. For example:
+
+```
+direction = input("Do you want to go left or right? ")
+
+while direction != "left" and direction != "right":
+  if direction == "down":
+    print("we can't really go down")
+    direction = input()
+  else:
+    print("the only options are left and right")
+    direction = input()
+
+if direction == "left":
+  print("cool, we'll go left")
+elif direction == "right":
+  print("cool, we'll go right")
+else:
+  print("The only options are left or right")
+  ```
 
 ### Try it out
 Sabrina is casting a spell that requires her to write out the name of a demon over and over and over and over again. Write a program to automate this part of the spell by asking for the demon's name and the number of repetitions required, and then printing the name the requested number of times.
