@@ -99,7 +99,7 @@ Then click run in `main.py` and your code will execute.
 
 ### Try it out
 
-Create a separate Python script called `hello.py` with the code we wrote above. 
+Create a separate Python script called `hello.py` with the code we wrote above, and run the code from `main.py`.
 
 ## Variables and data types
 
