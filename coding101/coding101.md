@@ -20,15 +20,15 @@ A little less this...
 
 ### Binary/0 & 1
 
-- Way of counting, just like our way of counting that uses the digits 0-9
-- Turns our commands into machine readable language
+- Way of counting, just like our way of counting that uses the digits 0-9.
+- Turns our commands into machine readable language.
 - ["Bits, Bytes, Building With Binary" by Vaidehi Joshi, BaseCS Blog](https://medium.com/basecs/bits-bytes-building-with-binary-13cb4289aafa)
 
 ### So, what is code?
 
-- Code tells a computer a set of commands that you want the computer to execute
-- Code can be written in many different programming languages
-- Code is translated into binary through a compiler or an interpreter and a computer reads the binary
+- Code tells a computer a set of commands that you want the computer to execute.
+- Code can be written in many different programming languages.
+- Code is translated into binary through a compiler or an interpreter and a computer reads the binary.
 
 ### Women are coders, too
 
@@ -45,9 +45,9 @@ In fact, the first computer programmer was a woman: Ada Lovelace.
 
 ## What is Python and how do I use it?
 
-- Python is the programming language we're going to be learning today. It was created in 1991 by Guido van Rossum
-- It's named after Monty Python
-- It's used for a wide range of programming, from making web apps to data analysis
+- Python is the programming language we're going to be learning today. It was created in 1991 by Guido van Rossum.
+- It's named after Monty Python.
+- It's used for a wide range of programming, from making web apps to data analysis.
 
 ### Why Python?
 
@@ -83,11 +83,11 @@ Congratulations, you've written your first code!
 
 ### Saving your code
 
-We'll be running all of our code in the repl interpreter, and saving our programs to repl. But a Python script looks the same whether it's on repl or on your computer: it's a plain-text file of commands in Python, with a filename that ends in `.py`. In repl, you can create a new file by clicking on the "New file" button and giving your file a name.
+We'll be running all of our code in the repl interpreter, and saving our programs to repl. But a Python script looks the same whether it's on repl or on your computer: it's a plain-text file of commands in Python, with a filename that ends in `.py`. In repl, you can create a new file by clicking on the "New file" button and giving your file a name. **Heads-up: repl is a bit quirky in that you can only run code from main.py. Feel free to save your code into new files, just know that you'll need to copy it back to main.py to run it.**
 
 ### Try it out
 
-Create a separate Python script called `hello.py` with the code we wrote above.
+Create a separate Python script called `hello.py` with the code we wrote above. 
 
 ## Variables and data types
 
