@@ -4,7 +4,7 @@
 Emma Thai + Hannah Kearns '22 talk about lessons learned from alums and career development about what a portfolio should contain. How do you decide what to include?
 
 
-## 1:30-2:00pm - Wireframing exercise 
+## 1:30-2:00pm - Wireframing & Brainstorming 
 Now is the time to start brainstorming your own portfolio. We've provided some analog methods on the table, but you can also use digital options like [Wireframe.cc](https://wireframe.cc/) or even options like [Canva](http://www.canva.com) to sketch out your ideas. Before you start drafting, think over and discuss the following questions:
 
 * What am I most proud of? What is unique about my experiences, skills, journey, etc?
@@ -21,24 +21,23 @@ Things to keep in mind when choosing a platform:
 * **Cost** - How much are you willing to spend monthly/annually to keep up your portfolio? Does the platform have any hidden fees? Note that to register a custom domain like www.myname.com you will probably pay at least $15/year just to keep the domain name. 
 * **Purpose** - What is the point of your portfolio? Does the platform cater to that purpose? Are you trying to sell items and therefore need an e-commerce option? Are you trying to host a lot of multimedia and need a gallery feature? Is there a platform that is common in your industry that you want to demonstrate expertise in? 
 * **Mobile** - While this is the default these days, it's always good to make sure your platform can deliver a mobile-friendly website.
-* **SEO** - 
+* **SEO** - Search Engine Optimization. Again, this is built into most platforms these days, but it's always nice to know whether you can manually adjust the settings to make your website more findable in search engines. See this [page](https://www.squarespace.com/marketing/seo) for an example. 
 * **Ethics** - Some web hosting companies don't have the best reputation. Do a little research to make sure you're working with someone that isn't actively doing harm.
+* **Export** - Can you get your content in and out of this platform with ease? The platform should market this as a feature if so. Check the support pages or Google to confirm.
 
-* Focus on things to think about 
-    * Mobile
-    * Cost
-    * SEO
-    * domains! 
-    * selling things
-    
-  * Squarespace
-  * WordPress
-  * Reclaim hosting
-  * GitHub Pages 
-  * Wix/Weebly
-  * Hover 
+
+Platform options:
+
+* [Squarespace](https://www.squarespace.com)
+* [WordPress](https://wordpress.org/)
+* [Reclaim Hosting](http://www.reclaimhosting.com)
+* [GitHub Pages ](https://pages.github.com/)
+* [Wix](https://www.wix.com/)
+* [Weebly](https://www.weebly.com/) w/ e-commerce/Square
+* [Hover](https://www.hover.com/) for buying domains 
   
   
-  
-  # Resources
-  * 
+# Resources
+* [HTML & CSS Is Hard (But it doesn’t have to be)](https://www.internetingishard.com/html-and-css/)
+* 
+
