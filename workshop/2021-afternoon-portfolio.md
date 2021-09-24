@@ -43,4 +43,8 @@ Platform options:
 * 
 
 # Portfolio Examples
-* 
+* [Mackenzie Brooks](https://www.mackenziekbrooks.info/)
+* [Mikki Brock](https://www.mdbrock.com/)
+* [Brenna Womer](https://brennawomer.com/)
+* [Amanda Visconti](https://amandavisconti.com/)
+* [Brandon Walsh](https://www.walshbr.com)
